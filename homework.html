@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather in East London</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    .weather-container {
+      width: 85%;
+      max-width: 600px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    h1, h2, h3, p {
+      margin: 0;
+      font-family: Helvetica, Arial, sans-serif;
+    }
+
+    h1 {
+      color: #1a64d6;
+      font-size: 34px;
+      line-height: 48px;
+    }
+
+    h2 {
+      font-size: 34px;
+      line-height: 48px;
+      font-weight: 400;
+      margin-top: 10px;
+    }
+
+    ul {
+      padding: 0;
+      list-style: none;
+      margin: 20px 0;
+    }
+
+    li {
+      padding: 10px;
+      border-radius: 10px;
+      margin: 10px auto;
+      max-width: 400px;
+      transition: background-color 0.3s ease;
+      background-color: #fff;
+      color: #000;
+    }
+
+    li:hover {
+      background-color: #f8c6d0; 
+    }
+
+    li h3, li p {
+      margin: 0;
+      font-size: 18px;
+      opacity: 1;
+    }
+
+    li h3 {
+      font-size: 22px;
+      color: #000;
+    }
+
+    li p {
+      font-size: 18px;
+    }
+
+    .black-temp {
+      color: #000;
+    }
+
+    .bold-temp {
+      font-weight: bold; 
+    }
+
+    button {
+      display: block;
+      margin: 20px auto;
+      border: 1px solid #1a64d6;
+      background: #1a64d6;
+      color: #fff;
+      font-size: 16px;
+      padding: 16px 24px;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background: white;
+      color: #1a64d6;
+      border: 1px solid #1a64d6;
+    }
+
+    .credit {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="weather-container">
+    <h1> 🌤<br> Currently 21° in East London</h1>
+    <h2>21° / <strong>23°</strong></h2>
+    <ul>
+      <li>
+        <h3>🌧️ Tomorrow</h3>
+        <p><span class="black-temp">13°</span> / <span class="black-temp bold-temp">23°</span></p>
+      </li>
+      <li>
+        <h3>☁️ Saturday</h3>
+        <p><span class="black-temp">10°</span> / <span class="black-temp bold-temp">22°</span></p>
+      </li>
+      <li>
+        <h3>☀️ Sunday</h3>
+        <p><span class="black-temp">15°</span> / <span class="black-temp bold-temp">17°</span></p>
+      </li>
+    </ul>
+    <button>Change city</button>
+    <p class="coded by">Coded by Kamogelo Baloyi</p>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
